@@ -36,7 +36,7 @@
       "packagerConfig": {
         "name": "Electron Quick Start",
         "executableName": "electron-quick-start",
-        "icon": "assets/icon.icns",
+        "icon": "assets/icon",
         "appBundleId": "com.cck.electronQuickStart",
         "appCategoryType": "public.app-category.developer-tools"
       },
