@@ -6,5 +6,5 @@
 // process.
 
 document.querySelector('#close').addEventListener('click', () => {
-  ipcRenderer.send('close')
+    ipcRenderer.send('close')
 })
