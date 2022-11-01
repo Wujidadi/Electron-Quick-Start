@@ -7,3 +7,10 @@ updates:
     time: "13:00"
   open-pull-requests-limit: 99
   versioning-strategy: increase
+  ignore:
+    - dependency-name: "electron"
+    - dependency-name: "electron-forge/cli"
+    - dependency-name: "@electron-forge/maker-deb"
+    - dependency-name: "@electron-forge/maker-rpm"
+    - dependency-name: "@electron-forge/maker-zip"
+    - dependency-name: "@electron-forge/maker-squirrel"
